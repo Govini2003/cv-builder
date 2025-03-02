@@ -9,4 +9,9 @@ export default defineConfig({
       '@assets': path.resolve(__dirname, 'src/assets'),
     },
   },
+  build: {
+    rollupOptions: {
+      external: ['react-router-dom'],  // Externalize react-router-dom if necessary
+    }
+  }
 });
