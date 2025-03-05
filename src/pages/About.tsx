@@ -14,7 +14,7 @@ const About: React.FC = () => {
         </strong>, the creator of <strong>CV by Maya</strong>.  
         I'm a second-year Software Engineering student at the University of Westminster,  
         passionate about building modern, user-friendly applications.  
-        I specialize in React, Java, and other technologies to develop innovative solutions  
+        I specialize in Python, React, Java, and other technologies to develop innovative solutions  
         that enhance digital experiences.
       </p>
       <button
