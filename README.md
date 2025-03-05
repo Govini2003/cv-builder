@@ -1,4 +1,4 @@
-# CV By Maya
+# CV By Maya 
 This is a CV Generating app that is ATS friendly
 
 ## Quick & Easy
@@ -15,3 +15,7 @@ This is a CV Generating app that is ATS friendly
 
 ## Content Suggestions
 - Get helpful suggestions for skills, achievements, and job descriptions to enhance your resume.
+
+# Used technologies
+- React
+- Tailwind CSS
