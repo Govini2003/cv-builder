@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
       <h1 className="text-3xl font-bold text-gray-900 mb-4">Contact Me</h1>
       <p className="text-lg text-gray-700 max-w-2xl mb-6">
         Feel free to reach out if you have any questions, feedback, or inquiries. 
-        We are always happy to help!
+        I am always happy to help!
       </p>
 
       {/* Contact Information */}
