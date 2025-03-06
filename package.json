@@ -1,5 +1,6 @@
 {
   "name": "interactive-resume-builder",
+  "homepage": "https://govini2003.github.io/cv-builder/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
