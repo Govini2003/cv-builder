@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 const About: React.FC = () => {
   const navigate = useNavigate();
 
+  
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 px-6 text-center">
       <h1 className="text-3xl font-bold text-gray-900 mb-4">About Me</h1>
