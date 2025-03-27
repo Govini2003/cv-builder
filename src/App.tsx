@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/cv-builder">
       <div className="min-h-screen bg-gray-50">
         <Header />
         <Routes>
