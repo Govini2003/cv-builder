@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@assets': path.resolve(__dirname, 'src/assets'),
+      '@': path.resolve(__dirname, './src'),
     },
   },
   build: {
@@ -16,7 +16,9 @@ export default defineConfig({
     assetsDir: 'assets',
     sourcemap: true,
     rollupOptions: {
-      external: ['react-router-dom'],
+      output: {
+        manualChunks: undefined
+      }
     }
   }
 });
