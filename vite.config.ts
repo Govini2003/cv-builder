@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
+// https://vitejs.dev/config/
 export default defineConfig({
   base: '/cv-builder/',
   plugins: [react()],
@@ -11,8 +12,11 @@ export default defineConfig({
     },
   },
   build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: true,
     rollupOptions: {
-      external: ['react-router-dom'],  // Externalize react-router-dom if necessary
+      external: ['react-router-dom'],
     }
   }
 });
