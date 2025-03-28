@@ -1,6 +1,7 @@
 # CV By Maya 
 This is a CV Generating app that is ATS friendly
 
+
 ## Quick & Easy
 - Create a professional resume in just minutes with our intuitive builder. No design skills required.
 
@@ -16,6 +17,6 @@ This is a CV Generating app that is ATS friendly
 ## Content Suggestions
 - Get helpful suggestions for skills, achievements, and job descriptions to enhance your resume.
 
-# Used technologies
+## Used technologies
 - TypeScript
 - Tailwind CSS
