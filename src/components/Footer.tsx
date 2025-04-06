@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FileText, Heart, Mail, Github } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -15,37 +16,41 @@ const Footer: React.FC = () => {
               Create professional resumes in minutes with CV by Maya. Stand out from the crowd and land your dream job.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/Govini2003" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="https://github.com/Govini2003"
+                className="text-gray-400 hover:text-white transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Github className="h-5 w-5" />
               </a>
-              <a href="mailto:govinirajapakse2003@gmail.com" className="text-gray-400 hover:text-white transition-colors">
-                 <Mail className="h-5 w-5" />
+              <a
+                href="mailto:govinirajapakse2003@gmail.com"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <Mail className="h-5 w-5" />
               </a>
-
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-white font-semibold mb-4">Features</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Resume Builder</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">PDF Export</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">ATS-Friendly</a></li>
+              <li><span className="hover:text-white transition-colors cursor-pointer">Resume Builder</span></li>
+              <li><span className="hover:text-white transition-colors cursor-pointer">PDF Export</span></li>
+              <li><span className="hover:text-white transition-colors cursor-pointer">ATS-Friendly</span></li>
             </ul>
           </div>
-          
 
-          
           <div>
             <h3 className="text-white font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/about" className="hover:text-white transition-colors">About Me</a></li>
-              <li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><Link to="/about" className="hover:text-white transition-colors">About Me</Link></li>
+              <li><Link to="/contact" className="hover:text-white transition-colors">Contact Me</Link></li>
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm mb-4 md:mb-0">© 2025 CV By Maya. All rights reserved.</p>
           <p className="text-sm flex items-center">
