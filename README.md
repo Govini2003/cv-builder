@@ -17,5 +17,6 @@ This is a CV Generating app that is ATS friendly
 - Get helpful suggestions for skills, achievements, and job descriptions to enhance your resume.
 
 ## Used technologies
+- React vite
 - TypeScript
 - Tailwind CSS
