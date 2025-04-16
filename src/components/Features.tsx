@@ -23,7 +23,6 @@ const Features: React.FC = () => {
             </p>
           </div>
           
-
           <div className="card transition-all duration-300 hover:shadow-elegant">
             <div className="rounded-full bg-accent-100 p-3 w-14 h-14 flex items-center justify-center mb-4">
               <Shield className="h-7 w-7 text-accent-600" />
