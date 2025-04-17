@@ -25,7 +25,7 @@ const About: React.FC = () => {
         <strong className="bg-gradient-to-r from-blue-500 to-blue-800 bg-clip-text text-transparent">
           Govini Vimaya Rajapakse
         </strong>, the creator of <strong>CV by Maya</strong>. <br />
-        I'm a second-year Software Engineering student at the University of Westminster, passionate about building modern, user-friendly applications. I specialize in React, Java, and other technologies to develop innovative solutions that enhance digital experiences.
+        I'm a second year Software Engineering student at the University of Westminster, passionate about building modern, user-friendly applications. I specialize in React, Java, and other technologies to develop innovative solutions that enhance digital experiences.
       </motion.p>
       <motion.button
         onClick={() => navigate("/")}
