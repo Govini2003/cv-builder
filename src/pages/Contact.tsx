@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 const Contact: React.FC = () => {
   const navigate = useNavigate();
 
+  
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 px-6 text-center">
       <motion.h1
